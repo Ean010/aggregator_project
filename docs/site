@@ -1,1 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title Aggregator</title>
+</head>
+<body>
+    <h1>Scraped Titles from The Verge</h1>
+    <ul>
+        {% for title in titles %}
+            <li>{{ title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
 
